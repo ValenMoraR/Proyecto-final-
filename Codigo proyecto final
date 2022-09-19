@@ -1,0 +1,27 @@
+from textblob import Textblob
+
+
+class forms():
+    def __init__(self, estudiante, profesor):
+        self.estudiante=estudiante
+        self.profesor= profesor 
+
+
+    
+
+class estudiante():
+    def __init__(self, name, id):
+        self.name= name 
+        self.id= id
+
+
+class A_datos():
+    def __init__(self, formulaio):
+        self.formulario=formulario 
+    
+
+    def analizar_forms():
+        pass
+
+    def retroalimentacion():
+        pass
